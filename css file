@@ -1,0 +1,26 @@
+body{
+    background-image: url("1.jpg");
+    color: snow;
+    font-family: monospace;
+    font-style: oblique;
+    
+}
+h1 {
+    color: snow;
+    font-family: monospace;
+    font-style: oblique;
+    margin-left: 651px;
+    margin-top: 225px;
+    font-size: 4em;
+}
+p {
+    color: snow;
+    font-family: monospace;
+    font-style: oblique;
+    margin-left: 583px;
+    margin-top: 22px;
+}
+.btn{
+    margin-left: 719px;
+    margin-top: 35px;
+}
